@@ -4,6 +4,24 @@ namespace Harjoitus
 {
     public class Class1
     {
-        Console.WriteLine("hello world!");
+     public static bool DateTimeCheck(DateTime a)
+        {
+            bool timeCheck;
+            if (DateTime.Now > a)
+            {
+                return timeCheck = false;
+                
+            }
+            else if (DateTime.Now < a)
+            {
+                return timeCheck = true;
+                
+            }
+            else
+            {
+                return timeCheck = true;
+            }
+        }
+        public static bool OverDueOrNot(DateTime a)
     }
 }
